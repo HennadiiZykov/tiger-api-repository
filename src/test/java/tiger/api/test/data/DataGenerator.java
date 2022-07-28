@@ -15,7 +15,7 @@ public class DataGenerator {
 		return faker.phoneNumber().cellPhone();
 
 	}
-
+ // Change method getFirstName
 	public static String getFirstName() {
 		Faker faker = new Faker();
 		return faker.name().firstName();

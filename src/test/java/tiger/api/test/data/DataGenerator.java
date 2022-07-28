@@ -21,7 +21,7 @@ public class DataGenerator {
 		return faker.name().firstName();
 				
 	}
-	
+	//change method getLastName
 	public static String getLastName() {
 		Faker faker = new Faker();
 		return faker.name().lastName();

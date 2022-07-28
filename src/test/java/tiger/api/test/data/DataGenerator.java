@@ -3,7 +3,7 @@ package tiger.api.test.data;
 import com.github.javafaker.Faker;
 
 public class DataGenerator {
-
+// Gena Zykov
 	public static String getEmail() {
 		Faker faker = new Faker();
 		return faker.name().firstName() + faker.name().lastName() + "@gmail.com";

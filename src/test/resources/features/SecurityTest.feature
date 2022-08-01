@@ -3,7 +3,6 @@ Feature: Security test. Token Generation test
 
 @Smoke @Security
 Scenario: Generate token with valid username and password
-
 Given url "https://tek-insurance-api.azurewebsites.net"
 And path "/api/token"
 And request {"username": "supervisor","password": "tek_supervisor"}

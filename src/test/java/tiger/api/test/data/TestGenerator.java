@@ -5,7 +5,7 @@ import java.util.Date;
 import com.github.javafaker.Faker;
 import com.ibm.icu.text.SimpleDateFormat;
 
-//Gena Hennadii !!!!!!!!!!!!
+//Gena Hennadii !
 
 public class TestGenerator {
 
